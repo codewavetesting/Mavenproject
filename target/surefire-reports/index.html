@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-usermanagement" class="navigator-link">
+              <span class="suite-name border-failed">usermanagement</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-usermanagement" class="navigator-link ">
+                    <span>C:\Users\poorn\eclipse-workspace\mavenweb\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-usermanagement" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-usermanagement" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-usermanagement" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-usermanagement" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-usermanagement" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-usermanagement" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 3 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-usermanagement" class="hide-methods failed suite-usermanagement"> (hide)</a> <!-- hide-methods failed suite-usermanagement -->
+                      <a href="#" panel-name="suite-usermanagement" class="show-methods failed suite-usermanagement"> (show)</a> <!-- show-methods failed suite-usermanagement -->
+                    </span>
+                    <div class="method-list-content failed suite-usermanagement">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="blockuser">blockuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.Payment" class="method navigator-link" hash-for-method="nextandpreviuos_dataTest">nextandpreviuos_dataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="nextandpreviuos_dataTest">nextandpreviuos_dataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-usermanagement -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-usermanagement" class="hide-methods passed suite-usermanagement"> (hide)</a> <!-- hide-methods passed suite-usermanagement -->
+                      <a href="#" panel-name="suite-usermanagement" class="show-methods passed suite-usermanagement"> (show)</a> <!-- show-methods passed suite-usermanagement -->
+                    </span>
+                    <div class="method-list-content passed suite-usermanagement">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.Payment" class="method navigator-link" hash-for-method="applycompletedTest">applycompletedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.Payment" class="method navigator-link" hash-for-method="applyfailedTest">applyfailedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="editdataTest">editdataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="femaleandactivedataTest">femaleandactivedataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="femaleandblockeddataTest">femaleandblockeddataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="femaleandinactivedataTest">femaleandinactivedataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="invalidsearchTest">invalidsearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.Payment" class="method navigator-link" hash-for-method="invalidvalidserachinpaymentTest">invalidvalidserachinpaymentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="maleandactivecleardataTest">maleandactivecleardataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="maleandactivedataTest">maleandactivedataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="maleandblockeddataTest">maleandblockeddataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="maleandinactivedataTest">maleandinactivedataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="othersandactiveddataTest">othersandactiveddataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="othersandblockeddataTest">othersandblockeddataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="othersandinactiveddataTest">othersandinactiveddataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="unblockuser">unblockuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.usermanage" class="method navigator-link" hash-for-method="validsearchTest">validsearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-usermanagement" title="usermanagement.Payment" class="method navigator-link" hash-for-method="validserachinpaymentTest">validserachinpaymentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-usermanagement -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-usermanagement" class="panel usermanagement">
+          <div class="suite-usermanagement-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">usermanagement.Payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nextandpreviuos_dataTest">
+                  </a> <!-- nextandpreviuos_dataTest -->
+                  <span class="method-name">nextandpreviuos_dataTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1211, 1044)
+  (Session info: chrome=120.0.6099.225)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1df460b3454ad74677cf4bd51db859b6, clickElement {id=8039EF544B5B1C21F5E83DA276326E68_element_2297}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\poorn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64804/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1df460b3454ad74677cf4bd51db859b6)] -&gt; xpath: //a[normalize-space()=&apos;Next&apos;]]
+Session ID: 1df460b3454ad74677cf4bd51db859b6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at usermanagement.Payment.nextandpreviuos_dataTest(Payment.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-usermanagement-class-failed -->
+          <div class="suite-usermanagement-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">usermanagement.usermanage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blockuser">
+                  </a> <!-- blockuser -->
+                  <span class="method-name">blockuser</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Block User&apos;]&quot;}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa39cbe72b1edce2f9b4ccb8db5be9e, findElement {using=xpath, value=//span[text()=&apos;Block User&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\poorn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64933/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa39cbe72b1edce2f9b4ccb8db5be9e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at usermanagement.usermanage.blockuser(usermanage.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nextandpreviuos_dataTest">
+                  </a> <!-- nextandpreviuos_dataTest -->
+                  <span class="method-name">nextandpreviuos_dataTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1211, 1258)
+  (Session info: chrome=120.0.6099.225)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84e72862b7bffe922fc5981a4f87409e, clickElement {id=858041847FCE0E7BA8B868DE6B9CEB5A_element_1031}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\poorn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49156/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84e72862b7bffe922fc5981a4f87409e)] -&gt; xpath: //a[normalize-space()=&apos;Next&apos;]]
+Session ID: 84e72862b7bffe922fc5981a4f87409e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at usermanagement.usermanage.nextandpreviuos_dataTest(usermanage.java:346)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-usermanagement-class-failed -->
+          <div class="suite-usermanagement-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">usermanagement.Payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applycompletedTest">
+                  </a> <!-- applycompletedTest -->
+                  <span class="method-name">applycompletedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyfailedTest">
+                  </a> <!-- applyfailedTest -->
+                  <span class="method-name">applyfailedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidvalidserachinpaymentTest">
+                  </a> <!-- invalidvalidserachinpaymentTest -->
+                  <span class="method-name">invalidvalidserachinpaymentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validserachinpaymentTest">
+                  </a> <!-- validserachinpaymentTest -->
+                  <span class="method-name">validserachinpaymentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-usermanagement-class-passed -->
+          <div class="suite-usermanagement-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">usermanagement.usermanage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editdataTest">
+                  </a> <!-- editdataTest -->
+                  <span class="method-name">editdataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="femaleandactivedataTest">
+                  </a> <!-- femaleandactivedataTest -->
+                  <span class="method-name">femaleandactivedataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="femaleandblockeddataTest">
+                  </a> <!-- femaleandblockeddataTest -->
+                  <span class="method-name">femaleandblockeddataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="femaleandinactivedataTest">
+                  </a> <!-- femaleandinactivedataTest -->
+                  <span class="method-name">femaleandinactivedataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidsearchTest">
+                  </a> <!-- invalidsearchTest -->
+                  <span class="method-name">invalidsearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maleandactivecleardataTest">
+                  </a> <!-- maleandactivecleardataTest -->
+                  <span class="method-name">maleandactivecleardataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maleandactivedataTest">
+                  </a> <!-- maleandactivedataTest -->
+                  <span class="method-name">maleandactivedataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maleandblockeddataTest">
+                  </a> <!-- maleandblockeddataTest -->
+                  <span class="method-name">maleandblockeddataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maleandinactivedataTest">
+                  </a> <!-- maleandinactivedataTest -->
+                  <span class="method-name">maleandinactivedataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="othersandactiveddataTest">
+                  </a> <!-- othersandactiveddataTest -->
+                  <span class="method-name">othersandactiveddataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="othersandblockeddataTest">
+                  </a> <!-- othersandblockeddataTest -->
+                  <span class="method-name">othersandblockeddataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="othersandinactiveddataTest">
+                  </a> <!-- othersandinactiveddataTest -->
+                  <span class="method-name">othersandinactiveddataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unblockuser">
+                  </a> <!-- unblockuser -->
+                  <span class="method-name">unblockuser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validsearchTest">
+                  </a> <!-- validsearchTest -->
+                  <span class="method-name">validsearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-usermanagement-class-passed -->
+        </div> <!-- panel usermanagement -->
+        <div panel-name="test-xml-usermanagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\poorn\eclipse-workspace\mavenweb\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;usermanagement&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;usermanagement.Payment&quot;/&gt;
+      &lt;class name=&quot;usermanagement.usermanage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- usermanagement --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-usermanagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for usermanagement</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-usermanagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for usermanagement</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-usermanagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for usermanagement</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_usermanagement');
+function tableData_usermanagement() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'blockuser')
+data.setCell(0, 2, 'usermanagement.usermanage')
+data.setCell(0, 3, 26953);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'unblockuser')
+data.setCell(1, 2, 'usermanagement.usermanage')
+data.setCell(1, 3, 22784);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'editdataTest')
+data.setCell(2, 2, 'usermanagement.usermanage')
+data.setCell(2, 3, 7904);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'nextandpreviuos_dataTest')
+data.setCell(3, 2, 'usermanagement.Payment')
+data.setCell(3, 3, 7472);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'applycompletedTest')
+data.setCell(4, 2, 'usermanagement.Payment')
+data.setCell(4, 3, 6705);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'invalidvalidserachinpaymentTest')
+data.setCell(5, 2, 'usermanagement.Payment')
+data.setCell(5, 3, 6490);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'nextandpreviuos_dataTest')
+data.setCell(6, 2, 'usermanagement.usermanage')
+data.setCell(6, 3, 6489);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'maleandactivecleardataTest')
+data.setCell(7, 2, 'usermanagement.usermanage')
+data.setCell(7, 3, 6480);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'othersandinactiveddataTest')
+data.setCell(8, 2, 'usermanagement.usermanage')
+data.setCell(8, 3, 6379);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'femaleandinactivedataTest')
+data.setCell(9, 2, 'usermanagement.usermanage')
+data.setCell(9, 3, 6229);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'femaleandblockeddataTest')
+data.setCell(10, 2, 'usermanagement.usermanage')
+data.setCell(10, 3, 6082);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'maleandblockeddataTest')
+data.setCell(11, 2, 'usermanagement.usermanage')
+data.setCell(11, 3, 6071);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'applyfailedTest')
+data.setCell(12, 2, 'usermanagement.Payment')
+data.setCell(12, 3, 6006);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'invalidsearchTest')
+data.setCell(13, 2, 'usermanagement.usermanage')
+data.setCell(13, 3, 5980);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'othersandactiveddataTest')
+data.setCell(14, 2, 'usermanagement.usermanage')
+data.setCell(14, 3, 5893);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'othersandblockeddataTest')
+data.setCell(15, 2, 'usermanagement.usermanage')
+data.setCell(15, 3, 5875);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'maleandactivedataTest')
+data.setCell(16, 2, 'usermanagement.usermanage')
+data.setCell(16, 3, 5713);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validserachinpaymentTest')
+data.setCell(17, 2, 'usermanagement.Payment')
+data.setCell(17, 3, 5533);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'maleandinactivedataTest')
+data.setCell(18, 2, 'usermanagement.usermanage')
+data.setCell(18, 3, 5517);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'femaleandactivedataTest')
+data.setCell(19, 2, 'usermanagement.usermanage')
+data.setCell(19, 3, 5474);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validsearchTest')
+data.setCell(20, 2, 'usermanagement.usermanage')
+data.setCell(20, 3, 5113);
+window.suiteTableData['usermanagement']= { tableData: data, tableDiv: 'times-div-usermanagement'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-usermanagement">
+              </div> <!-- times-div-usermanagement -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-usermanagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for usermanagement</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-usermanagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">usermanagement.usermanage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-usermanagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">usermanagement.Payment</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">applycompletedTest</span>
+                <span class="method-start">7311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">14034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">14747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">applyfailedTest</span>
+                <span class="method-start">17434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">23444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">24209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidvalidserachinpaymentTest</span>
+                <span class="method-start">26613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">33104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">33796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">nextandpreviuos_dataTest</span>
+                <span class="method-start">36103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">43587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">44271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validserachinpaymentTest</span>
+                <span class="method-start">46727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">52261 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">usermanagement.usermanage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">52945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editdataTest</span>
+                <span class="method-start">55543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">63449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">64149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">blockuser</span>
+                <span class="method-start">66944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">93908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">94668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unblockuser</span>
+                <span class="method-start">97032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">119818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">120541 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maleandactivedataTest</span>
+                <span class="method-start">123148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">128863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">129559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maleandactivecleardataTest</span>
+                <span class="method-start">132862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">139343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">140022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maleandinactivedataTest</span>
+                <span class="method-start">142719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">148237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">148932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maleandblockeddataTest</span>
+                <span class="method-start">152693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">158765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">159451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">femaleandactivedataTest</span>
+                <span class="method-start">163248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">168724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">169421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">femaleandinactivedataTest</span>
+                <span class="method-start">172707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">178937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">179627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">femaleandblockeddataTest</span>
+                <span class="method-start">183376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">189459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">190139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">othersandblockeddataTest</span>
+                <span class="method-start">192755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">198637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">199322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">othersandactiveddataTest</span>
+                <span class="method-start">202205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">208100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">208768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">othersandinactiveddataTest</span>
+                <span class="method-start">211564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">217944 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">218648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validsearchTest</span>
+                <span class="method-start">221004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">226118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">226780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidsearchTest</span>
+                <span class="method-start">229236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">235218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">235897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">nextandpreviuos_dataTest</span>
+                <span class="method-start">238489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">244994 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">usermanagement.Payment</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">245800 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

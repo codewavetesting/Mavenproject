@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [usermanagement]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.generic.ITestListernersImp"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="usermanagement.usermanage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="editdataTest"/>
+          <include name="othersandactiveddataTest"/>
+          <include name="invalidsearchTest"/>
+          <include name="blockuser"/>
+          <include name="othersandinactiveddataTest"/>
+          <include name="maleandblockeddataTest"/>
+          <include name="validsearchTest"/>
+          <include name="nextandpreviuos_dataTest"/>
+          <include name="unblockuser"/>
+          <include name="othersandblockeddataTest"/>
+          <include name="tearDown"/>
+          <include name="launchbrowser"/>
+          <include name="maleandactivecleardataTest"/>
+          <include name="setUp"/>
+          <include name="femaleandinactivedataTest"/>
+          <include name="femaleandblockeddataTest"/>
+          <include name="femaleandactivedataTest"/>
+          <include name="maleandactivedataTest"/>
+          <include name="maleandinactivedataTest"/>
+        </methods>
+      </class> <!-- usermanagement.usermanage -->
+      <class name="usermanagement.Payment">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="closeBrowser"/>
+          <include name="applyfailedTest"/>
+          <include name="applycompletedTest"/>
+          <include name="setUp"/>
+          <include name="invalidvalidserachinpaymentTest"/>
+          <include name="validserachinpaymentTest"/>
+          <include name="tearDown"/>
+          <include name="nextandpreviuos_dataTest"/>
+        </methods>
+      </class> <!-- usermanagement.Payment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [usermanagement] -->
